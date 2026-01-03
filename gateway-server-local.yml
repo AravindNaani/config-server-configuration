@@ -14,7 +14,7 @@ spring:
         - id: user-management
           uri: lb://USER-MANAGEMENT
           predicates:
-            - path=/api/users/**
+            - Path=/api/users/**
 
 server:
   port: 8762
